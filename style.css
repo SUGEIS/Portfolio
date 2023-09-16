@@ -233,6 +233,8 @@ header.sticky{
     box-shadow:0 0 5px var(--main-color);
     transition:all .50s ease;
     cursor:pointer;
+    display:flex;
+    flex-direction:row;
 }
 
 .box:hover{
@@ -251,6 +253,7 @@ header.sticky{
       display:flex;
       align-items:center;
       justify-content:center;
+      background:var(--second-bg-color);
       margin-top:4.2rem;
 
 }
@@ -339,6 +342,8 @@ section{
 
 .footer{
     padding: 18px 8%;
+    box-shadow: 0px 0px 10px rgba(18, 187,255, 0.5);
+    
 }
 .logo{
     font-size:28px;
@@ -379,4 +384,40 @@ section{
    .root{
     --main-color
    }
+
+   
+
+   .skills-content {
+     display: flex; 
+    flex-wrap:wrap;
+    grid-template-columns: repeat(auto-fit, minmax(300px,auto));
+    align-items: center;
+    gap:2.3rem;
+    margin-top:4.2rem;
+    justify-content:space-between;
+    align-items: center; */
+    height: 100vh;
+}
+
+.box {
+    flex:1;
+    display: flex;
+    gap:20px;
+    flex-direction:column;
+    align-items: center; 
+}
+
+.img {
+    display: flex;
+    flex-direction: column;
+    align-items:center; 
+    margin: 10px;
+    margin-right: 20px;
+}
+
+.img img {
+    width: 50px; /* Set the desired width for your images */
+    height: 50px; /* Set the desired height for your images */
+}
+
 

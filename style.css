@@ -486,5 +486,20 @@ section{
     }
 }
 
+/* Add your existing CSS code here */
+
+/* Media query for screens with a maximum width of 768px (typical mobile screens) */
+@media (max-width: 768px) {
+    .footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .scroll-top {
+        margin-top: 20px;
+    }
+}
+
+
 
 

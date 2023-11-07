@@ -431,7 +431,7 @@ section{
 }
 
 
-/* Add your existing CSS code here */
+
 
 @media (max-width: 1200px) {
     header {
@@ -470,5 +470,21 @@ section{
         display: flex;
     }
 }
+
+/* Add your existing CSS code here */
+
+/* Media query for screens with a maximum width of 768px (typical mobile screens) */
+@media (max-width: 768px) {
+    .skills-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .projects-content {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
 
 

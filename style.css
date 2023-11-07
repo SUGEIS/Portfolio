@@ -431,3 +431,44 @@ section{
 }
 
 
+/* Add your existing CSS code here */
+
+@media (max-width: 1200px) {
+    header {
+        padding: 20px 8%;
+    }
+    header.sticky {
+        padding: 14px 8%;
+    }
+    section {
+        padding: 90px 8%;
+    }
+    .footer {
+        padding: 18px 8%;
+    }
+    .logo {
+        font-size: 28px;
+    }
+    .bx-menu {
+        display: block;
+    }
+    .nav-list {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 70px;
+        right: 0;
+        background: var(--bg-color);
+        width: 100%;
+        text-align: center;
+        z-index: 1001;
+    }
+    .nav-list a {
+        margin: 10px 0;
+    }
+    .nav-list.active {
+        display: flex;
+    }
+}
+
+
